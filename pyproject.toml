@@ -1,0 +1,20 @@
+[project]
+name = "evaluate-ocr"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "adarsharegmi",email = "adarsharegmi121@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+evaluate-ocr = "evaluate_ocr.main:main"
