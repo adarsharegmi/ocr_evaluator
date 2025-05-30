@@ -1,0 +1,11 @@
+boto3
+requests
+requests-aws4auth
+opensearch-py
+
+
+azure-ai-documentintelligence
+azure-core
+pandas
+matplotlib
+seaborn
